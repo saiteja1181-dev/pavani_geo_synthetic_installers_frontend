@@ -1,0 +1,556 @@
+/* Service Detail Section */
+.service-detail-section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.service-detail-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Not Found State */
+.service-detail-not-found {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.service-detail-not-found-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 20px;
+}
+
+.service-detail-not-found-description {
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin-bottom: 30px;
+}
+
+/* Back Button */
+.service-detail-back-button {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.service-detail-back-button:hover {
+  background: #b91c1c;
+  transform: translateY(-2px);
+}
+
+/* Service Detail Card */
+.service-detail-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+}
+
+/* Header Section */
+.service-detail-header {
+  padding: 40px 40px 20px;
+  text-align: left;
+}
+
+.service-detail-section-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #dc2626;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+}
+
+.service-detail-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.service-detail-title-accent {
+  color: #dc2626;
+}
+
+.service-detail-header-divider {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(135deg, #dc2626, #ea580c);
+  margin: 20px 0;
+  border-radius: 2px;
+}
+
+/* Content Section */
+.service-detail-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 0 40px 40px;
+}
+
+/* Image Section */
+.service-detail-image-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.service-detail-image {
+  position: relative;
+  height: 400px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fef2f2;
+}
+
+.service-detail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service-detail-image-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #dc2626, #ea580c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Info Section */
+.service-detail-info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.service-detail-info-card {
+  background: #fef2f2;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #fed7d7;
+}
+
+.service-detail-info-card-header {
+  margin-bottom: 20px;
+}
+
+.service-detail-info-card-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 15px;
+}
+
+.service-detail-info-card-divider {
+  width: 60px;
+  height: 3px;
+  background: #dc2626;
+  border-radius: 1px;
+}
+
+.service-detail-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #4a5568;
+  margin: 0;
+}
+
+/* Features Grid */
+.service-detail-features-grid {
+  display: grid;
+  gap: 15px;
+}
+
+.service-detail-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  border-left: 3px solid #dc2626;
+}
+
+.service-detail-feature-icon {
+  color: #dc2626;
+  font-weight: bold;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.service-detail-feature-text {
+  color: #2d3748;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* CTA Section */
+.service-detail-cta-card {
+  background: #fc5858;
+  color: rgb(249, 245, 245);
+}
+
+.service-detail-cta-card .service-detail-info-card-title {
+  color: white;
+}
+
+.service-detail-cta-card .service-detail-info-card-divider {
+  background: white;
+}
+
+.service-detail-cta-description {
+  font-size: 1.1rem;
+  color: #fed7d7;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.service-detail-cta-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.service-detail-primary-btn, .service-detail-secondary-btn {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+}
+
+.service-detail-primary-btn {
+  background: white;
+  color: #dc2626;
+}
+
+.service-detail-primary-btn:hover {
+  background: #f7fafc;
+  transform: translateY(-2px);
+}
+
+.service-detail-secondary-btn {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.service-detail-secondary-btn:hover {
+  background: white;
+  color: #dc2626;
+  transform: translateY(-2px);
+}
+
+.service-detail-btn-icon {
+  font-size: 1.1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .service-detail-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .service-detail-image {
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-detail-section {
+    padding: 60px 0;
+  }
+  
+  .service-detail-header,
+  .service-detail-content {
+    padding: 30px 25px;
+  }
+  
+  .service-detail-title {
+    font-size: 2rem;
+  }
+  
+  .service-detail-cta-buttons {
+    flex-direction: column;
+  }
+  
+  .service-detail-info-card {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-detail-container {
+    padding: 0 15px;
+  }
+  
+  .service-detail-header,
+  .service-detail-content {
+    padding: 25px 20px;
+  }
+  
+  .service-detail-title {
+    font-size: 1.8rem;
+  }
+  
+  .service-detail-info-card {
+    padding: 20px;
+  }
+  
+  .service-detail-primary-btn, 
+  .service-detail-secondary-btn {
+    padding: 12px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Quote Modal Styles */
+.service-detail-quote-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.service-detail-quote-modal-content {
+  background: white;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.service-detail-quote-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.service-detail-quote-modal-header h3 {
+  margin: 0;
+  color: #1a202c;
+  font-size: 1.3rem;
+}
+
+.service-detail-quote-modal-close {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #718096;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.service-detail-quote-modal-close:hover {
+  background: #f7fafc;
+  color: #e74c3c;
+}
+
+.service-detail-quote-form {
+  padding: 20px;
+}
+
+.service-detail-quote-form-group {
+  margin-bottom: 20px;
+}
+
+.service-detail-quote-form-group input,
+.service-detail-quote-form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.service-detail-quote-form-group input:focus,
+.service-detail-quote-form-group textarea:focus {
+  outline: none;
+  border-color: #e74c3c;
+  box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.1);
+}
+
+.service-detail-quote-input-error {
+  border-color: #fc8181 !important;
+}
+
+.service-detail-quote-error {
+  color: #fc8181;
+  font-size: 0.85rem;
+  margin-top: 5px;
+  display: block;
+}
+
+.service-detail-quote-form-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.service-detail-quote-submit-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  flex: 1;
+  transition: all 0.3s ease;
+}
+
+.service-detail-quote-submit-btn:hover:not(:disabled) {
+  background: #c0392b;
+  transform: translateY(-2px);
+}
+
+.service-detail-quote-submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.service-detail-quote-cancel-btn {
+  background: #edf2f7;
+  color: #4a5568;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  flex: 1;
+  transition: all 0.3s ease;
+}
+
+.service-detail-quote-cancel-btn:hover {
+  background: #e2e8f0;
+}
+
+.service-detail-quote-message {
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.service-detail-quote-success {
+  background: #c6f6d5;
+  color: #22543d;
+  border: 1px solid #9ae6b4;
+}
+
+.service-detail-quote-error {
+  background: #fed7d7;
+  color: #742a2a;
+  border: 1px solid #fc8181;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .service-detail-quote-modal {
+    padding: 10px;
+  }
+  
+  .service-detail-quote-modal-content {
+    max-width: 100%;
+    margin: 10px;
+  }
+  
+  .service-detail-quote-form-buttons {
+    flex-direction: column;
+  }
+}
+
+/* Update existing button styles */
+.service-detail-primary-btn,
+.service-detail-secondary-btn {
+  cursor: pointer;
+}
+/* Loading spinner */
+.service-detail-btn-spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 1s ease-in-out infinite;
+  margin-right: 8px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Error message styling - match Contact component */
+.service-detail-quote-error-message {
+  color: #e53e3e;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+/* Success/Error message styling */
+.service-detail-quote-success {
+  background: #c6f6d5;
+  color: #22543d;
+  border: 1px solid #9ae6b4;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.service-detail-quote-error {
+  background: #fed7d7;
+  color: #742a2a;
+  border: 1px solid #fc8181;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
