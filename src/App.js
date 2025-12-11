@@ -11,7 +11,7 @@ import ProductDetail from './components/ProductDetail';
 import Contact from './components/Contact';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/';
+const API_URL = 'http://pgsi.in/';
 
 function App() {
   const [company, setCompany] = useState(null);
