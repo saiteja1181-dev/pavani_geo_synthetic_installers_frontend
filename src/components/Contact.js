@@ -73,7 +73,7 @@ const Contact = () => {
 
     try {
       // Send data to backend API
-      const response = await fetch('http://pgsi.in/quote-requests', {
+      const response = await fetch('https://pgsi.in/quote-requests', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

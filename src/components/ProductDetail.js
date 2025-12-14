@@ -129,7 +129,7 @@ const ProductDetail = ({ product, onBack }) => {
       });
 
       // Send data to backend - include service field
-      const response = await fetch('http://pgsi.in/quote-requests', {
+      const response = await fetch('https://pgsi.in/quote-requests', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
