@@ -122,7 +122,7 @@ const ServiceDetail = ({ service, onBack }) => {
       console.log('Submitting to backend...', formData);
       
       // Send data to YOUR backend endpoint
-      const response = await fetch('https://pgsi.in/quote-requests', {
+      const response = await fetch('https://api.pgsi.in/quote-requests', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
