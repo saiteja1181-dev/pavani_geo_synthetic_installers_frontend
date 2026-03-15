@@ -140,16 +140,6 @@ function App() {
     };
   };
 
-  if (loading) {
-    return (
-      <div className="app-container">
-        <Header company={getCompanyData()} onNavigate={handleHeaderNavigation} />
-        <div className="app-loading-container">
-          <div className="app-loading-spinner"></div>
-          <p>Loading data from database...</p>
-        </div>
-      </div>
-    );
   }
 
   return (
