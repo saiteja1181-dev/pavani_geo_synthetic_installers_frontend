@@ -44,7 +44,6 @@ function App() {
 
   const fetchAllData = async () => {
     try {
-      setLoading(true);
       setError(null);
       
       console.log('🔄 Fetching data from database...');
@@ -66,8 +65,6 @@ function App() {
     } catch (error) {
       console.error('❌ Error fetching data:', error);
       setError(`Connection error: ${error.message}`);
-    } finally {
-      setLoading(false);
     }
   };
 
@@ -140,8 +137,6 @@ function App() {
     };
   };
 
-  
-
   return (
     <div className="app-container">
       <Header company={getCompanyData()} onNavigate={handleHeaderNavigation} />
@@ -187,4 +182,5 @@ function App() {
     </div>
   );
 }
-export default App;   
+
+export default App;
