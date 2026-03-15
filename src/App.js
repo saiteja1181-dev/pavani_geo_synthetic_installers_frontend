@@ -18,7 +18,7 @@ function App() {
   const [services, setServices] = useState([]);
   const [gallery, setGallery] = useState([]);
   const [products, setProducts] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(False);
   const [error, setError] = useState(null);
   const [selectedService, setSelectedService] = useState(null);
   const [selectedProduct, setSelectedProduct] = useState(null);
